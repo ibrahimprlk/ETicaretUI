@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+/* Material temel stillerini dahil edin */
+/* Angular Material'ın Pink/Blue Grey temasını CSS ile dahil etme */
+@import '@angular/material/prebuilt-themes/pink-bluegrey.css';
+
+
+/* Özel tema stilleri ekleyebilirsiniz (isteğe bağlı) */
+
+/* Ana renk */
+.mat-primary {
+  background-color: #e91e63; /* Pink */
+  color: white;
+}
+
+/* Vurgu rengi */
+.mat-accent {
+  background-color: #607d8b; /* Blue Grey */
+  color: white;
+}
+
+/* Butonlar için özel stil */
+.mat-button {
+  background-color: #e91e63; /* Pink */
+  color: white;
+}
+
+/* Diğer Material bileşenleri için renk ayarları yapılabilir */
+.mat-card {
+  border: 1px solid #607d8b; /* Blue Grey */
+  background-color: #f1f8e9;  /* Hafif pastel arka plan rengi */
+}
+
+.mat-toolbar {
+  background-color: #e91e63; /* Pink */
+  color: white;
+}
